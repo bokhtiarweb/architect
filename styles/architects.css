@@ -108,6 +108,26 @@ h1.banner_title{
 #quick_list{
     font-weight: 500;
 }
+/* Feature section styles */
+.features{
+    gap: 140px;
+}
+#feature_section_id{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.feature_card{
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+.feature_card .feature_title{
+    font-weight: 600;
+    font-size: 1.15rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 /* Some facts section style */
 .facts_container{
     display: grid;
